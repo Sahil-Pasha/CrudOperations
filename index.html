@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Crud</title>
+</head>
+<body>
+<h2>Form</h2>
+<form>
+	Book Name <input type="text" id="bname">
+	Author Name <input type="text" id="aname">
+	Description <input type="text" id="desc">
+	Price <input type="text" id="price">
+	<input type="button" value="Submit" onclick='manageData()'>
+</form>
+<div id="msg"></div>
+
+<h2>Table</h2>
+<table id="root" border="1">
+		<tr>
+			<td>Book Name</td>
+			<td>Author Name</td>
+			<td>Description</td>
+			<td>Price</td>
+		</tr>
+</table>
+<script src="index.js"></script>
+</body>
+</html>
